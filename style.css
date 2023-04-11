@@ -196,7 +196,7 @@ p {
         min-height: 600px;
         margin-top: 0;
         padding-bottom: 0;
-        background-size: center;
+        background-size: initial;
         justify-content: center;
         background-image: linear-gradient(to right, #1a6ab1, transparent 50%),
             url(/images/laptop-computer-dark-room-.jpeg);
