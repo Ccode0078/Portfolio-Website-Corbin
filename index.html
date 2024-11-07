@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- Specifies the character encoding for the HTML document -->
     <meta charset="UTF-8">
+    <!-- Allows compatibility with Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Sets the viewport to ensure proper scaling on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="./style.css" />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+    <!-- Load Google Fonts for styling text -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
-    <title>Portfolio</title>
+    <title>Portfolio</title> <!-- Title of the page displayed on the browser tab -->
 </head>
+
 <body>
+    <!-- Main navigation bar of the website -->
     <nav class="main-navbar">
         <div class="container">
             <div id="nav_contents" class="contents">
+                <!-- Website branding with clickable title -->
                 <div class="brand">
                     <a href="#">
                         <h1>Portfolio</h1>
                     </a>
                 </div>
+                <!-- Menu icon for toggling navigation on smaller screens -->
                 <div class="menu">
-
-                    <img src="https://github.com/DwinaTech/public-images/blob/main/menu-bars.png?raw=true"
-                        alt="menu=bars" />
-                    <img src="https://github.com/DwinaTech/public-images/blob/main/cross-menu-icon.png?raw=true"
-                        alt="menu-cross" />
-
+                    <img src="https://github.com/DwinaTech/public-images/blob/main/menu-bars.png?raw=true" alt="menu-bars" />
+                    <img src="https://github.com/DwinaTech/public-images/blob/main/cross-menu-icon.png?raw=true" alt="menu-cross" />
                 </div>
+                <!-- Navigation links to various sections of the page -->
                 <ul>
                     <li id="home_link"><a href="#">Home</a></li>
                     <li id="about_link"><a href="#about">About</a></li>
@@ -37,81 +39,98 @@
                     <li id="projects_link"><a href="#projects">Projects</a></li>
                     <li id="contact_link"><a href="#contact">Contact</a></li>
                 </ul>
-
             </div>
         </div>
     </nav>
+
+    <!-- Banner section with introductory text -->
     <section class="banner">
         <div class="container">
             <div class="contents">
                 <h2>Hello,</h2>
-                <p> I am Corbin </p>
-                <p> I am a Software Engineer </p>
+                <p>I am Corbin</p>
+                <p>I am a Software Engineer</p>
             </div>
         </div>
     </section>
+
+    <!-- "About Me" section with a brief introduction -->
     <section id="about">
-     <div class="container">
-        <h2>About Me</h2>
-        <div class="contents">
-          <img src="images/user-icon-png.webp" alt="person image" />
-         </div>
-         <p>
-            "As a highly motivated and dedicated software engineer, I am committed to producing quality work that meets and exceeds company goals and values. I am a detail-oriented individual who takes pride in delivering exceptional results that meet client needs. My strong communication skills enable me to effectively collaborate with team members and clients alike, ensuring that projects are completed on time. I understand the importance of teamwork and the value of having positive relationships with colleagues and business partners. With my combination of technical skills, attention to detail, and strong work ethic, I am confident that I can make a valuable contribution to any team. I am committed to staying up-to-date with the latest technologies and industry trends, which enables me to stay ahead of the curve and deliver innovative solutions. Ultimately, I am passionate about my work and driven by the desire to achieve success, both individually and as part of a team."
-         </p>
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="contents">
+                <img src="images/user-icon-png.webp" alt="person image" />
+            </div>
+            <p>
+                "As a highly motivated and dedicated software engineer, I am committed to producing quality work that meets and exceeds company goals..."
+            </p>
         </div>
     </section>
+
+    <!-- Services section to list services offered -->
     <section id="services">
         <div class="container">
             <h2>Services I can provide</h2>
             <div class="contents">
-
+                <!-- Content for services will go here -->
             </div>
         </div>
     </section>
+
+    <!-- Projects section to showcase previous work -->
     <section id="projects">
-       <div class="container">
-        <h2>My Projects</h2>
-        <div class="contents"></div>
-       </div>
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="contents">
+                <!-- Project items can be added here -->
+            </div>
+        </div>
     </section>
+
+    <!-- Contact section with contact information -->
     <section id="contact">
         <div class="container">
             <h2>Contact me!</h2>
             <div class="contents">
-            <div class="info">
-                <div class="card">
-                    <h3>Email</h3>
-                    <p>ccp4003@yahoo.com</p>
+                <div class="info">
+                    <!-- Email card -->
+                    <div class="card">
+                        <h3>Email</h3>
+                        <p>ccp4003@yahoo.com</p>
+                    </div>
+                    <!-- Telephone card -->
+                    <div class="card">
+                        <h3>Tel</h3>
+                        <p>713 918 9319</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Tel</h3>
-                    <p>713 918 9319</p>
-                </div>
-            </div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d886188.2433387003!2d-95.96181415061561!3d29.815995115107167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8b4488d8501%3A0xca0d02def365053b!2sHouston%2C%20TX!5e0!3m2!1sen!2sus!4v1680535692738!5m2!1sen!2sus"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+                <!-- Embedded Google Map to display location -->
+                <iframe src="https://www.google.com/maps/embed?pb=..." loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </section>
+
+    <!-- Footer section with social media links and copyright -->
     <footer>
         <div class="container">
             <div class="contents">
                 <h4>Follow me on </h4>
                 <div class="social-icons">
+                    <!-- LinkedIn icon with link -->
                     <a href="https://www.linkedin.com/in/corbin-perry-0992531ab/" target="blank">
-                        <img
-                          src="https://raw.githubusercontent.com/Ccode0078/public-images/main/Linkden.jpg"
-                          alt="Linkedin Icon"
-                        />
+                        <img src="https://raw.githubusercontent.com/Ccode0078/public-images/main/Linkden.jpg" alt="Linkedin Icon" />
                     </a>
+                    <!-- GitHub icon with link -->
                     <a href="https://github.com/Ccode0078" target="blank">
-                        <img
-                         src="https://raw.githubusercontent.com/Ccode0078/public-images/main/github-mark-white.png"
-                         alt="Github Icon"
-                        />
+                        <img src="https://raw.githubusercontent.com/Ccode0078/public-images/main/github-mark-white.png" alt="Github Icon" />
                     </a>
                 </div>
                 <p>All &copy; Copy Rights are Reserved to Portfolio Website Corbin</p>
             </div>
         </div>
     </footer>
+
+    <!-- Link to external JavaScript file -->
     <script src="./main.js"></script>
-    </body>
+</body>
 </html>
