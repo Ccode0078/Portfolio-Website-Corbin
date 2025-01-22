@@ -56,13 +56,7 @@ window.addEventListener("load", () => {
 });
 
 
-[
-  {
-    title: "Skills",
-    subtitle: "Software Development utilities",
-    description: "Fast learner / Communication / Adaptability / Docker / Git / Python / PostgresSQL / DevOps / Customer Service / Django/ Flask / Team building / HTML / CSS / Javascript"
-  },
-];
+
 // Fetch and render projects section
 const projects = document.querySelector("#projects .contents");
 const renderProjects = async () => {
@@ -91,29 +85,4 @@ window.addEventListener("load", () => {
   renderProjects();
 });
 
-[
-  {
-    hoster: "Github",
-    name: "Guess that Number Algorithim",
-    hoster_url: "https://github.com/Ccode0078/Guess-that-Number-Algorithim",
-    thumbnail_url:
-      "https://raw.githubusercontent.com/Ccode0078/public-images/main/guess%20that%20number%20photo.jpg",
-  },
-
-  {
-    hoster: "Github",
-    name: "Donate Me Account",
-    hoster_url: "https://github.com/Ccode0078/Donation-account/tree/main/workshop3",
-    thumbnail_url:
-      "https://raw.githubusercontent.com/Ccode0078/public-images/main/Donate%20me%20picture.jpeg",
-  },
-
-  {
-    hoster: "Github",
-    name: "Battlefield",
-    hoster_url: "https://github.com/Ccode0078/Battlefield",
-    thumbnail_url:
-      "https://raw.githubusercontent.com/Ccode0078/public-images/main/swords-publicdomainvectors.png",
-  },
-];
 

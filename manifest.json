@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "My Web Project",
+    "version": "1.0",
+    "description": "A description of my web project.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "scripts": ["main.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["index.js"]
+      }
+    ],
+    "browser_action": {
+      "default_icon": "images/user-icon-png.webp",
+      "default_popup": "index.html"
+    },
+    "icons": {
+      "16": "images/user-icon-png.webp",
+      "48": "images/user-icon-png.webp",
+      "128": "images/user-icon-png.webp"
+    },
+    "web_accessible_resources": [
+      "images/computerP 2.jpeg",
+      "images/computer_keyboard.jpeg",
+      "images/laptop-computer-dark-room-.jpeg",
+      "images/user-icon-png.webp"
+    ]
+  }
+  

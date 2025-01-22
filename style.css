@@ -164,7 +164,7 @@ p {
     justify-content: flex-end;
     background-color: #1a6ab1;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, #211c05 25%, transparent 52%),
+    background-image: linear-gradient(to top, #000000 25%, transparent 52%),
         url(/images/laptop-computer-dark-room-.jpeg);
     background-position: top center;
     background-size: cover;
@@ -319,7 +319,7 @@ p {
     }
 
     #services .contents {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
