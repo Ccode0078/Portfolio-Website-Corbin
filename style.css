@@ -165,7 +165,7 @@ p {
     background-color: #1a6ab1;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top, #000000 25%, transparent 52%),
-        url(/images/laptop-computer-dark-room-.jpeg);
+        url(/images/banner3.jpg);
     background-position: top center;
     background-size: cover;
     margin-top: -100px;
@@ -199,7 +199,7 @@ p {
         background-size: center;
         justify-content: center;
         background-image: linear-gradient(to right, #1a6ab1, transparent 50%),
-            url(/images/laptop-computer-dark-room-.jpeg);
+            url(/images/banner3.jpg);
         background-position: 300px center;
     }
 
@@ -216,7 +216,7 @@ p {
 @media (min-width: 1100px) {
     .banner .contents {
         background-image: linear-gradient(to right, #1a6ab1, transparent 50%),
-            url("./images/laptop-computer-dark-room-.jpeg");
+            url(/images/banner3.jpg);
         background-position: right center;
     }
 
